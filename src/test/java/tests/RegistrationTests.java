@@ -8,7 +8,7 @@ public class RegistrationTests extends TestBase{
 
     @Test
     public void registrationSuccess(){
-// open regform
+        // open regform
         //fill email
         //fill password
         //click registration

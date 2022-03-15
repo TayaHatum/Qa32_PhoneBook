@@ -1,5 +1,6 @@
 package tests;
 
+import manager.ApplicationManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,22 +11,20 @@ import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
-    WebDriver wd;
+
+    protected  static ApplicationManager app = new ApplicationManager();
+
 
     @BeforeMethod
-    public void init(){
-        // browser+https
-        wd = new ChromeDriver();
-        wd.manage().window().maximize();
-        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/");
-        // https://ilcarro.xyz/
+    public void setUp(){
+        app.init();
+
 
     }
 
     @AfterMethod
     public void tearDown(){
-        wd.quit();
+      app.stop();
     }
 
    ///********************************************************
