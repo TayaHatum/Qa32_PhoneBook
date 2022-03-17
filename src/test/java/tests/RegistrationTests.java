@@ -11,7 +11,8 @@ public class RegistrationTests extends TestBase{
     public void registrationSuccess(){
 
         int index = (int)(System.currentTimeMillis()/1000)%3600;
-        System.out.println(index);
+        System.out.println("wick"+index+"@gmail.com");
+
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistartionForm("wick"+index+"@gmail.com","Ww12345$");
