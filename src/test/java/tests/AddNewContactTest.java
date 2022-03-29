@@ -2,6 +2,7 @@ package tests;
 
 import models.Contact;
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -25,9 +26,14 @@ public class AddNewContactTest extends TestBase{
                 .email("john"+index+"@mail.com")
                 .address("Rehovot")
                 .description("The best friend").build();
+        System.out.println(contact.getName());
+        System.out.println(contact.getPhone());
 
         app.contact().openContactForm();
         app.contact().fillContactForm(contact);
         app.contact().saveContact();
+
+        Assert.assertTrue(app.contact().isContactByName(contact.getName()));
+        Assert.assertTrue(app.contact().isContactByPhone(contact.getPhone()));
     }
 }
