@@ -17,7 +17,10 @@ public void preCondition(){
     public void registrationSuccess(){
 
         int index = (int)(System.currentTimeMillis()/1000)%3600;
+
         System.out.println("wick"+index+"@gmail.com");
+        logger.info("wick"+index+"@gmail.com");
+        logger.info("The index is --->" +index);
 
 
         app.getHelperUser().openLoginRegistrationForm();

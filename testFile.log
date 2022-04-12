@@ -1,0 +1,6 @@
+3919 [Test worker] INFO  manager.ApplicationManager - Tests start in ChromeDriver
+4869 [Test worker] INFO  manager.ApplicationManager - The lint is --> https://contacts-app.tobbymarshall815.vercel.app/home
+10047 [Test worker] INFO  tests.TestBase - Tests start with email : 'noa@gmail.com' and password : 'Nnoa12345$' 
+18:19:15.411  INFO  manager.ApplicationManager - Tests start in ChromeDriver
+18:19:16.733  INFO  manager.ApplicationManager - The lint is --> https://contacts-app.tobbymarshall815.vercel.app/home
+18:19:21.951  INFO  tests.TestBase - Tests start with email : 'noa@gmail.com' and password : 'Nnoa12345$' 

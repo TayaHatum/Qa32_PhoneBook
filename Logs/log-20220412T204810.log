@@ -1,0 +1,82 @@
+20:48:17.599  INFO  manager.ApplicationManager - Tests start in ChromeDriver
+20:48:20.043  INFO  manager.ApplicationManager - The lint is --> https://contacts-app.tobbymarshall815.vercel.app/home
+20:48:20.108  INFO  tests.TestBase - Start test --->loginSuccessNew
+20:48:20.111  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+20:48:25.168  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+20:48:25.170  INFO  tests.TestBase - Tests start with email : noa@gmail.comand password : Nnoa12345$
+20:48:25.171  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+20:48:25.220  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+20:48:25.365  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //inpu[1]
+20:48:30.424  INFO  manager.MyListener - We have a 'throwable' -- >no such element: Unable to locate element: {"method":"xpath","selector":"//inpu[1]"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96b1b5af4777f656d3832eb1010c7878
+*** Element info: {Using=xpath, value=//inpu[1]}
+20:48:30.425  INFO  manager.MyListener - We have a 'fill In StackTrace' -- >org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//inpu[1]"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96b1b5af4777f656d3832eb1010c7878
+*** Element info: {Using=xpath, value=//inpu[1]}
+20:48:32.430  INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-2910.png
+20:48:32.440  INFO  tests.TestBase - Start test --->loginSuccessNew
+20:48:32.443  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+20:48:37.558  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+20:48:37.559  INFO  tests.TestBase - Tests start with email : noa@gmail.comand password : Nnoa12345$
+20:48:37.560  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+20:48:37.575  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+20:48:37.619  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //inpu[1]
+20:48:42.659  INFO  manager.MyListener - We have a 'throwable' -- >no such element: Unable to locate element: {"method":"xpath","selector":"//inpu[1]"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96b1b5af4777f656d3832eb1010c7878
+*** Element info: {Using=xpath, value=//inpu[1]}
+20:48:42.660  INFO  manager.MyListener - We have a 'fill In StackTrace' -- >org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//inpu[1]"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96b1b5af4777f656d3832eb1010c7878
+*** Element info: {Using=xpath, value=//inpu[1]}
+20:48:45.477  INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-2922.png
+20:48:45.518  INFO  tests.TestBase - Start test --->loginSuccessNew
+20:48:45.520  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+20:48:50.535  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+20:48:50.536  INFO  tests.TestBase - Tests start with email : noa@gmail.comand password : Nnoa12345$
+20:48:50.536  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+20:48:50.551  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+20:48:50.613  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //inpu[1]
+20:48:55.659  INFO  manager.MyListener - We have a 'throwable' -- >no such element: Unable to locate element: {"method":"xpath","selector":"//inpu[1]"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96b1b5af4777f656d3832eb1010c7878
+*** Element info: {Using=xpath, value=//inpu[1]}
+20:48:55.660  INFO  manager.MyListener - We have a 'fill In StackTrace' -- >org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//inpu[1]"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96b1b5af4777f656d3832eb1010c7878
+*** Element info: {Using=xpath, value=//inpu[1]}
+20:48:58.973  INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-2935.png
+20:48:59.003  INFO  tests.TestBase - Start test --->loginSuccessNew
+20:48:59.021  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']

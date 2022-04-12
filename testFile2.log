@@ -1,0 +1,3 @@
+18:21:21.415  INFO  manager.ApplicationManager - Tests start in ChromeDriver
+18:21:22.584  INFO  manager.ApplicationManager - The lint is --> https://contacts-app.tobbymarshall815.vercel.app/home
+18:21:27.840  INFO  tests.TestBase - Tests start with email : 'noa@gmail.com' and password : 'Nnoa12345$' 
