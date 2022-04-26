@@ -57,6 +57,27 @@ public class LoginTests extends TestBase {
         logger.info("test passed");
     }
 
+    @Test (dataProvider = "validModelLogin",dataProviderClass = MyDataProvider.class)
+    public void loginModelDataProvider(User user){
+
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistartionForm(user);
+        app.getHelperUser().submitLogin();
+        Assert.assertTrue(app.getHelperUser().isLoginRegistrationSuccess());
+
+    }
+
+
+
+    @Test (dataProvider = "validModelCSV",dataProviderClass = MyDataProvider.class)
+    public void loginModelDataProviderCSV(User user){
+
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistartionForm(user);
+        app.getHelperUser().submitLogin();
+        Assert.assertTrue(app.getHelperUser().isLoginRegistrationSuccess());
+
+    }
 
     @Test
     public void loginNegativeTestWrongPassword(){
