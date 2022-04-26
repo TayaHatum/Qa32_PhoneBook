@@ -14,6 +14,7 @@ public class AddNewContactTest extends TestBase{
     public void preCondition(){
         if(!app.getHelperUser().isSignOutPresent()){
             app.getHelperUser().login(new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$"));
+
         }
     }
 
@@ -41,10 +42,9 @@ public class AddNewContactTest extends TestBase{
     @Test (dataProvider = "validDataContact",dataProviderClass = MyDataProvider.class)
     public void addNewContactSuccessDataProviderCSV(Contact contact){
         int index = (int) (System.currentTimeMillis()/1000)%3600;
-
+logger.info("Test start with contact" +contact.toString());
         contact.setEmail("john"+index+"@mail.com");
         contact.setPhone("1234567"+index);
-
 
         app.contact().openContactForm();
         app.contact().fillContactForm(contact);

@@ -1,0 +1,44 @@
+20:30:44.093  INFO  manager.ApplicationManager - Tests start in ChromeDriver
+20:30:45.144  INFO  manager.ApplicationManager - The lint is --> https://contacts-app.tobbymarshall815.vercel.app/home
+20:30:45.189  INFO  tests.TestBase - Start test --->removeAllContact
+20:30:45.191  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+20:30:50.249  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+20:30:50.250  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+20:30:50.272  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+20:30:50.435  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+20:30:50.462  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+20:30:50.892  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+20:30:50.915  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+20:30:51.073  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+20:30:51.094  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+20:30:51.187  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+20:30:52.056  INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+20:30:52.057  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+20:30:52.085  INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+20:30:52.167  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Remove']
+20:30:52.192  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Remove'] <--- was found
+20:30:52.263  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+20:30:52.274  INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+20:30:52.307  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Remove']
+20:30:52.325  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Remove'] <--- was found
+20:30:52.383  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+20:30:52.392  INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+20:30:52.423  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Remove']
+20:30:52.435  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Remove'] <--- was found
+20:30:52.553  INFO  manager.MyListener - We have a 'throwable' -- >stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:54860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 348b65b157a62a17c0a518b554325298
+20:30:52.554  INFO  manager.MyListener - We have a 'fill In StackTrace' -- >org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:54860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 348b65b157a62a17c0a518b554325298
+20:30:54.134  INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-1852.png
