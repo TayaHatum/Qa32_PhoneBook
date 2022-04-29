@@ -11,23 +11,23 @@ import java.lang.reflect.Method;
 
 public class TestBase {
 
-    protected  static ApplicationManager app = new ApplicationManager();
+    protected static ApplicationManager app = new ApplicationManager();
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeMethod
-    public void startLogger(Method m){
-        logger.info("Start test --->" +m.getName());
+    public void startLogger(Method m) {
+        logger.info("Start test --->" + m.getName());
     }
 
     @BeforeSuite
-    public void setUp(){
+    public void setUp() {
         app.init();
 
     }
 
     @AfterSuite
-    public void tearDown(){
-  //app.stop();
+    public void tearDown() {
+        app.stop();
     }
 
 }

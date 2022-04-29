@@ -1,0 +1,392 @@
+09:35:23.021  INFO  manager.TestNgMyListener - onStart(ISuite suite)
+09:35:27.454  INFO  manager.ApplicationManager - Tests start in ChromeDriver
+09:35:29.740  INFO  manager.ApplicationManager - The lint is --> https://contacts-app.tobbymarshall815.vercel.app/home
+09:35:29.744  INFO  manager.TestNgMyListener - onStartGradle test
+09:35:29.775  INFO  tests.TestBase - Start test --->addNewContactSuccess
+09:35:29.779  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:34.812  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:34.813  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:35:34.827  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:35:34.915  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:35:34.937  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:35:35.292  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:35:35.312  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:35:35.440  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:35:35.461  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:35:35.550  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:35.552  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/add']
+09:35:36.061  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/add'] <--- was found
+09:35:36.172  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Name']
+09:35:36.200  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name'] <--- was found
+09:35:36.424  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Last Name']
+09:35:36.444  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name'] <--- was found
+09:35:36.582  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Phone']
+09:35:36.608  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone'] <--- was found
+09:35:36.778  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='email']
+09:35:36.795  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email'] <--- was found
+09:35:36.959  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Address']
+09:35:36.990  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address'] <--- was found
+09:35:37.138  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='description']
+09:35:37.153  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description'] <--- was found
+09:35:37.392  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: b
+09:35:37.417  INFO  manager.MyListener - The element with locator ---> By.cssSelector: b <--- was found
+09:35:37.470  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h2
+09:35:37.769  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h2 <--- was found
+09:35:38.067  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h3
+09:35:38.083  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3 <--- was found
+09:35:38.323  INFO  tests.TestBase - Start test --->addNewContactSuccessDataProviderCSV
+09:35:38.324  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:38.342  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:38.343  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:38.344  INFO  tests.TestBase - Test start with contactContact(name=Mona, lastName=Dow, phone=null, email=null, address=Haifa, description=friend)
+09:35:38.344  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/add']
+09:35:38.356  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/add'] <--- was found
+09:35:38.440  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Name']
+09:35:38.458  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name'] <--- was found
+09:35:38.655  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Last Name']
+09:35:38.666  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name'] <--- was found
+09:35:38.809  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Phone']
+09:35:38.834  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone'] <--- was found
+09:35:39.008  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='email']
+09:35:39.018  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email'] <--- was found
+09:35:39.284  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Address']
+09:35:39.300  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address'] <--- was found
+09:35:39.433  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='description']
+09:35:39.450  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description'] <--- was found
+09:35:39.599  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: b
+09:35:39.616  INFO  manager.MyListener - The element with locator ---> By.cssSelector: b <--- was found
+09:35:39.660  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h2
+09:35:39.894  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h2 <--- was found
+09:35:39.981  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h3
+09:35:39.994  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3 <--- was found
+09:35:40.197  INFO  tests.TestBase - Start test --->addNewContactSuccessDataProviderCSV
+09:35:40.198  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:40.210  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:40.210  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:40.211  INFO  tests.TestBase - Test start with contactContact(name=John, lastName=Wick, phone=null, email=null, address=Rehovot,Israel, description=friend)
+09:35:40.211  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/add']
+09:35:40.222  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/add'] <--- was found
+09:35:40.278  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Name']
+09:35:40.293  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name'] <--- was found
+09:35:40.516  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Last Name']
+09:35:40.530  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name'] <--- was found
+09:35:40.660  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Phone']
+09:35:40.674  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone'] <--- was found
+09:35:40.857  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='email']
+09:35:40.866  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email'] <--- was found
+09:35:41.037  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Address']
+09:35:41.047  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address'] <--- was found
+09:35:41.205  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='description']
+09:35:41.215  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description'] <--- was found
+09:35:41.363  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: b
+09:35:41.376  INFO  manager.MyListener - The element with locator ---> By.cssSelector: b <--- was found
+09:35:41.418  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h2
+09:35:41.646  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h2 <--- was found
+09:35:41.757  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h3
+09:35:41.769  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3 <--- was found
+09:35:41.999  INFO  tests.TestBase - Start test --->addNewContactSuccessDataProviderCSV
+09:35:42.000  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:42.009  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:42.010  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:42.010  INFO  tests.TestBase - Test start with contactContact(name=Mona, lastName=Dow, phone=null, email=null, address=Haifa, description=friend)
+09:35:42.010  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/add']
+09:35:42.018  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/add'] <--- was found
+09:35:42.046  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Name']
+09:35:42.078  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name'] <--- was found
+09:35:42.291  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Last Name']
+09:35:42.300  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name'] <--- was found
+09:35:42.428  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Phone']
+09:35:42.439  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone'] <--- was found
+09:35:42.580  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='email']
+09:35:42.593  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email'] <--- was found
+09:35:42.767  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Address']
+09:35:42.779  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address'] <--- was found
+09:35:42.946  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='description']
+09:35:42.960  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description'] <--- was found
+09:35:43.082  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: b
+09:35:43.101  INFO  manager.MyListener - The element with locator ---> By.cssSelector: b <--- was found
+09:35:43.175  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h2
+09:35:43.376  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h2 <--- was found
+09:35:43.455  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h3
+09:35:43.469  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3 <--- was found
+09:35:43.717  INFO  tests.TestBase - Start test --->addNewContactSuccessDataProviderCSV
+09:35:43.718  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:43.726  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:43.727  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:43.727  INFO  tests.TestBase - Test start with contactContact(name=John, lastName=Wick, phone=null, email=null, address=Rehovot,Israel, description=friend)
+09:35:43.727  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/add']
+09:35:43.734  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/add'] <--- was found
+09:35:43.764  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Name']
+09:35:43.800  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name'] <--- was found
+09:35:43.999  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Last Name']
+09:35:44.013  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name'] <--- was found
+09:35:44.148  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Phone']
+09:35:44.161  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone'] <--- was found
+09:35:44.309  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='email']
+09:35:44.327  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email'] <--- was found
+09:35:44.501  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Address']
+09:35:44.514  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address'] <--- was found
+09:35:44.668  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='description']
+09:35:44.684  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description'] <--- was found
+09:35:44.814  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: b
+09:35:44.834  INFO  manager.MyListener - The element with locator ---> By.cssSelector: b <--- was found
+09:35:44.883  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h2
+09:35:45.112  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h2 <--- was found
+09:35:45.224  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h3
+09:35:45.238  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3 <--- was found
+09:35:45.510  INFO  tests.TestBase - Start test --->loginModelDataProvider
+09:35:45.511  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:45.521  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:45.522  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:45.535  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:45.580  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:45.580  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:35:45.602  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:35:45.659  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:35:45.680  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:35:45.895  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:35:45.913  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:35:46.036  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:35:46.052  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:35:46.136  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:35:46.217  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:35:46.219  INFO  tests.TestBase - Start test --->loginModelDataProvider
+09:35:46.220  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:46.241  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:46.242  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:46.256  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:46.316  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:46.317  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:35:46.343  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:35:46.403  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:35:46.418  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:35:46.664  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:35:46.678  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:35:46.810  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:35:46.831  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:35:46.880  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:35:47.005  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:35:47.007  INFO  tests.TestBase - Start test --->loginModelDataProvider
+09:35:47.009  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:47.021  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:47.022  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:47.038  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:47.101  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:47.102  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:35:47.134  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:35:47.194  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:35:47.207  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:35:47.453  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:35:47.463  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:35:47.625  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:35:47.637  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:35:47.725  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:35:47.794  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:35:47.796  INFO  tests.TestBase - Start test --->loginModelDataProvider
+09:35:47.797  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:47.815  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:47.815  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:47.824  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:47.898  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:47.899  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:35:47.939  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:35:48.011  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:35:48.029  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:35:48.278  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:35:48.293  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:35:48.431  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:35:48.444  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:35:48.485  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:35:48.598  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:35:48.602  INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+09:35:48.602  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:48.619  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:48.620  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:48.640  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:48.747  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:48.747  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:35:48.764  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:35:48.841  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:35:48.854  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:35:49.064  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:35:49.078  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:35:49.279  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:35:49.291  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:35:49.378  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:35:49.457  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:35:49.460  INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+09:35:49.460  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:49.480  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:49.481  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:49.496  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:49.582  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:49.583  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:35:49.620  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:35:49.672  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:35:49.682  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:35:49.894  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:35:49.906  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:35:50.049  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:35:50.063  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:35:50.111  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:35:50.233  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:35:50.234  INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+09:35:50.235  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:50.270  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:50.270  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:50.278  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:50.371  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:50.376  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:35:50.393  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:35:50.456  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:35:50.467  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:35:50.669  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:35:50.679  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:35:50.812  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:35:50.824  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:35:50.909  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:35:50.979  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:35:50.980  INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+09:35:50.981  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:50.997  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:50.997  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:51.022  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:51.094  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:51.095  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:35:51.112  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:35:51.179  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:35:51.194  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:35:51.405  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:35:51.428  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:35:51.560  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:35:51.578  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:35:51.636  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:35:51.745  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:35:51.746  INFO  tests.TestBase - Start test --->loginNegativeTestWrongPassword
+09:35:51.746  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:51.761  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:51.761  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:51.771  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:51.842  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:51.843  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:35:51.865  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:35:51.915  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:35:51.929  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:35:52.156  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:35:52.166  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:35:52.298  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:35:52.313  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:35:52.358  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:35:52.512  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:35:52.650  INFO  tests.TestBase - Start test --->loginSuccess
+09:35:52.651  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:35:57.727  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:35:57.727  INFO  manager.TestNgMyListener - onTestStartnull
+09:35:57.730  INFO  tests.TestBase - Start test --->loginSuccessNew
+09:35:57.730  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:02.775  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:02.775  INFO  manager.TestNgMyListener - onTestStartnull
+09:36:02.776  INFO  tests.TestBase - Tests start with email : noa@gmail.comand password : Nnoa12345$
+09:36:02.776  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:36:02.786  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:36:02.825  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:36:02.839  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:36:03.190  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:36:03.199  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:36:03.479  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:36:03.496  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:36:03.592  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:36:03.776  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:36:03.777  INFO  tests.TestBase - test passed
+09:36:03.778  INFO  tests.TestBase - Start test --->loginSuccessNew
+09:36:03.779  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:03.790  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:03.790  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:03.798  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:03.912  INFO  manager.TestNgMyListener - onTestStartnull
+09:36:03.912  INFO  tests.TestBase - Tests start with email : mona@gmail.comand password : Mm12345$
+09:36:03.912  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:36:03.930  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:36:04.056  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:36:04.066  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:36:04.332  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:36:04.352  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:36:04.485  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:36:04.497  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:36:04.545  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:36:04.739  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:36:04.740  INFO  tests.TestBase - test passed
+09:36:04.742  INFO  tests.TestBase - Start test --->loginSuccessNew
+09:36:04.744  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:04.754  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:04.755  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:04.764  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:04.838  INFO  manager.TestNgMyListener - onTestStartnull
+09:36:04.839  INFO  tests.TestBase - Tests start with email : zoa@gmail.comand password : Zoa12345$
+09:36:04.839  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:36:04.862  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:36:04.929  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:36:04.943  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:36:05.150  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:36:05.162  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:36:05.295  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:36:05.310  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:36:05.359  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:36:05.480  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:36:05.480  INFO  tests.TestBase - test passed
+09:36:05.483  INFO  tests.TestBase - Start test --->loginSuccessNew
+09:36:05.484  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:05.497  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:05.498  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:05.516  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:05.613  INFO  manager.TestNgMyListener - onTestStartnull
+09:36:05.613  INFO  tests.TestBase - Tests start with email : wick416@gmail.comand password : Ww12345$
+09:36:05.613  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:36:05.629  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:36:05.684  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:36:05.697  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:36:05.915  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:36:05.928  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:36:06.047  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+09:36:06.080  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+09:36:06.357  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:36:06.431  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:36:06.431  INFO  tests.TestBase - test passed
+09:36:06.432  INFO  manager.TestNgMyListener - onTestStartnull
+09:36:10.618  INFO  tests.TestBase - Start test --->registrationSuccess
+09:36:10.623  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:10.640  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:10.640  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:10.652  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:10.728  INFO  manager.TestNgMyListener - onTestStartnull
+09:36:10.729  INFO  tests.TestBase - wick2170@gmail.com
+09:36:10.729  INFO  tests.TestBase - The index is --->2170
+09:36:10.729  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+09:36:10.749  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+09:36:10.806  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+09:36:10.824  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+09:36:11.108  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+09:36:11.119  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+09:36:11.329  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[2]
+09:36:11.362  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[2] <--- was found
+09:36:11.449  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+09:36:11.808  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+09:36:11.810  INFO  tests.TestBase - Start test --->removeAllContact
+09:36:11.810  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:11.843  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:11.844  INFO  manager.TestNgMyListener - onTestStartnull
+09:36:11.844  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+09:36:16.878  INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+09:36:16.879  INFO  tests.TestBase - Start test --->removeOneContact
+09:36:16.880  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+09:36:16.890  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+09:36:16.890  INFO  manager.TestNgMyListener - onTestStartnull
+09:36:16.890  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+09:36:21.914  INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+09:36:21.914  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+09:36:26.931  INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+09:36:26.931  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+09:36:31.977  INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+09:36:31.978  INFO  manager.TestNgMyListener - onTesFailure
+09:36:31.980  INFO  manager.TestNgMyListener - onFinish
+09:36:32.227  INFO  manager.TestNgMyListener - onFinish(ISuite suite)
