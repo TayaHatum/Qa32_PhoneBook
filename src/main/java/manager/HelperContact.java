@@ -55,7 +55,7 @@ public class HelperContact extends HelperBase {
 
             click(By.cssSelector(".contact-item_card__2SOIM"));
             click(By.xpath("//button[text()='Remove']"));
-            pause(500);
+            pause(1500);
 
         }
         int countAfter = countOfContacts();

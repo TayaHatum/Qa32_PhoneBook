@@ -12,7 +12,7 @@ import  models.User;
 
 public class LoginTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.getHelperUser().isSignOutPresent()){
             app.getHelperUser().signOut();
@@ -79,7 +79,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test (groups = {"web"})
     public void loginNegativeTestWrongPassword(){
        User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa");
        app.getHelperUser().openLoginRegistrationForm();
