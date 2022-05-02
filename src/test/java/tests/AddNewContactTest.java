@@ -33,7 +33,7 @@ public class AddNewContactTest extends TestBase{
 
         app.contact().openContactForm();
         app.contact().fillContactForm(contact);
-        app.contact().saveContact();
+        app.contact().saveContact2();
 
         Assert.assertTrue(app.contact().isContactByName(contact.getName()));
         Assert.assertTrue(app.contact().isContactByPhone(contact.getPhone()));

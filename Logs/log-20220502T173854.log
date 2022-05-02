@@ -1,0 +1,33 @@
+17:38:57.287  INFO  manager.ApplicationManager - Tests start in ChromeDriver
+17:38:57.997  INFO  manager.ApplicationManager - The lint is --> https://contacts-app.tobbymarshall815.vercel.app/home
+17:38:58.045  INFO  tests.TestBase - Start test --->addNewContactSuccess
+17:38:58.047  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sign Out']
+17:39:03.104  INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out'] <--- was found
+17:39:03.106  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+17:39:03.130  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+17:39:03.241  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+17:39:03.255  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+17:39:03.466  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+17:39:03.481  INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+17:39:03.577  INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+17:39:03.595  INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+17:39:03.665  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/add']
+17:39:04.733  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/add'] <--- was found
+17:39:04.794  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Name']
+17:39:04.814  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name'] <--- was found
+17:39:04.957  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Last Name']
+17:39:04.974  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name'] <--- was found
+17:39:05.067  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Phone']
+17:39:05.080  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone'] <--- was found
+17:39:05.183  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='email']
+17:39:05.198  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email'] <--- was found
+17:39:05.330  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Address']
+17:39:05.343  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address'] <--- was found
+17:39:05.435  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='description']
+17:39:05.450  INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description'] <--- was found
+17:39:05.573  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .add_form__2rsm2 button
+17:39:05.590  INFO  manager.MyListener - The element with locator ---> By.cssSelector: .add_form__2rsm2 button <--- was found
+17:39:06.219  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h2
+17:39:06.661  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h2 <--- was found
+17:39:06.719  INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: h3
+17:39:06.732  INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3 <--- was found

@@ -2,6 +2,7 @@ package manager;
 
 import models.Contact;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -28,8 +29,17 @@ public class HelperContact extends HelperBase {
     public void saveContact() {
         click(By.cssSelector("b"));
         // click(By.cssSelector(".add_form__2rsm2 button"));
-    }
 
+
+    }
+    public void saveContact2() {
+
+        WebElement element = wd.findElement(By.cssSelector(".add_form__2rsm2 button"));
+        element.sendKeys(Keys.TAB);
+        pause(500);
+        element.sendKeys(Keys.ENTER);
+
+    }
     public boolean isContactByName(String name) {
         List<WebElement> list = wd.findElements(By.cssSelector("h2"));
         for (WebElement el : list) {
