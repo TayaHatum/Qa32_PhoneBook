@@ -37,6 +37,7 @@ public class AddNewContactTest extends TestBase{
 
         Assert.assertTrue(app.contact().isContactByName(contact.getName()));
         Assert.assertTrue(app.contact().isContactByPhone(contact.getPhone()));
+        logger.info("end of test ");
     }
 
     @Test (dataProvider = "validDataContact",dataProviderClass = MyDataProvider.class)
